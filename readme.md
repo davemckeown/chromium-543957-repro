@@ -1,5 +1,11 @@
 ###Reproduction sample for Chromium issue 543957###
 
+git clone https://github.com/davemckeown/chromium-543957-repro
+cd chromium-543957-repro
+python -m SimpleHTTPServer 8080
+
+Open localhost:8080 in Chrome
+
 **Issue details:**
 https://code.google.com/p/chromium/issues/detail?id=543957
 
